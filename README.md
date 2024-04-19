@@ -66,3 +66,18 @@ Method: GET <br>
 Response Format: JSON <br>
 
 
+<h1>BindingAdapter for ImageView </h1>
+
+This BindingAdapter is used to load an image from a given URL into an ImageView using data binding. If the ImageView does not already have a drawable set, it will set a default placeholder image (ic_launcher_foreground) before asynchronously downloading and setting the image from the provided URL.
+
+```
+@BindingAdapter("imageUrl")
+fun ImageView.bindImage(imgUrl: String?) {
+    // Implementation
+}
+```
+
+Parameters
+imgUrl: The URL of the image to load into the ImageView.
+
+
