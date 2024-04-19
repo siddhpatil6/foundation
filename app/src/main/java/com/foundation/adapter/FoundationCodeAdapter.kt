@@ -42,7 +42,7 @@ class FoundationCodeAdapter(
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ForthCodeViewHolder {
         val binding: ForthcodeItemBinding = DataBindingUtil.inflate(
             LayoutInflater.from(parent.context),
-            R.layout.forthcode_item, parent, false
+            R.layout.foundation_item, parent, false
         )
         return ForthCodeViewHolder(binding)
 
