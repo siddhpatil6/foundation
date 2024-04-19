@@ -80,4 +80,6 @@ fun ImageView.bindImage(imgUrl: String?) {
 Parameters
 imgUrl: The URL of the image to load into the ImageView.
 
+<h1>downloadBitmap : </h1> <br>
+function attempts to download an image from a given URL and return it as a Bitmap. However, it's important to handle the network operations off the main UI thread to avoid blocking the UI.
 
