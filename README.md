@@ -1,4 +1,4 @@
-[foundation.webm](https://github.com/siddhpatil6/foundation/assets/5618021/23dd8ff1-e08c-4e94-87f9-ec0f26d6fc7b)[foundation.webm](https://github.com/siddhpatil6/foundation/assets/5618021/2b3b0b2f-7fca-490b-bd17-9d3c825aca3e)<h1>Foundation Code Demo </h1>
+<h1>Foundation Code Demo </h1>
 Code will show list of images and title in recycler view
 API needs to call to fetch list of data consist of title and url
 
