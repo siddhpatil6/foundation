@@ -3,7 +3,7 @@ Code will show list of images and title in recycler view
 API needs to call to fetch list of data consist of title and url
 
 <h2>Features </h2>
-1. Call API and show list of images and title in recyclerview.
+1. Call API and show list of images in recyclerview.
 
 <h2>Evidence : </h2> 
 
