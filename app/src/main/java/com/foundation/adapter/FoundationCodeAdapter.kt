@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.foundation.R
 import com.foundation.data.FoundationPhotosItem
-import com.foundation.databinding.ForthcodeItemBinding
+import com.foundation.databinding.FoundationItemBinding
 
 
 class FoundationCodeAdapter(
@@ -26,7 +26,7 @@ class FoundationCodeAdapter(
         imageCache = LruCache(cacheSize)
     }
 
-    inner class ForthCodeViewHolder(private val itemRowBinding:ForthcodeItemBinding) : RecyclerView.ViewHolder(itemRowBinding.root) {
+    inner class ForthCodeViewHolder(private val itemRowBinding:FoundationItemBinding) : RecyclerView.ViewHolder(itemRowBinding.root) {
         fun bind(item: FoundationPhotosItem) {
             val bitmap = imageCache.get(item.thumbnailUrl)
             if (bitmap==null){
@@ -40,7 +40,7 @@ class FoundationCodeAdapter(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ForthCodeViewHolder {
-        val binding: ForthcodeItemBinding = DataBindingUtil.inflate(
+        val binding: FoundationItemBinding = DataBindingUtil.inflate(
             LayoutInflater.from(parent.context),
             R.layout.foundation_item, parent, false
         )
